@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-01T00:08:30 MSK" name="Surefire suite" finished-at="2023-04-01T00:08:30 MSK" duration-ms="423">
+    <groups>
+      <group name="IMPLEMENTED">
+        <method signature="firstTest.firstTest()[pri:0, instance:MyTests.firstTest@5167268]" name="firstTest" class="MyTests.firstTest"/>
+        <method signature="secondTest.secondTest()[pri:0, instance:MyTests.secondTest@512d92b]" name="secondTest" class="MyTests.secondTest"/>
+      </group> <!-- IMPLEMENTED -->
+    </groups>
+    <test started-at="2023-04-01T00:08:30 MSK" name="Surefire test" finished-at="2023-04-01T00:08:30 MSK" duration-ms="423">
+      <class name="MyTests.firstTest">
+        <test-method signature="firstTest()[pri:0, instance:MyTests.firstTest@5167268]" started-at="2023-04-01T00:08:30 MSK" name="firstTest" finished-at="2023-04-01T00:08:30 MSK" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- MyTests.firstTest -->
+      <class name="MyTests.secondTest">
+        <test-method signature="secondTest()[pri:0, instance:MyTests.secondTest@512d92b]" started-at="2023-04-01T00:08:30 MSK" name="secondTest" finished-at="2023-04-01T00:08:30 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- MyTests.secondTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
